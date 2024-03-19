@@ -1,114 +1,118 @@
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #2e2f42;;
     background: #fff;
 }
 
 .logo-header{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-        font-size: 18px;
-        line-height: 21px; 
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2e2f42;
-        text-decoration: none;
+    font-size: 18px; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 .logo-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-        font-size: 18px;
-    line-height: 21px; 
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #f4f4fd;
-        color:black;
-        text-decoration: none;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
-.accent{
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 21px; 
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+.accent-header{
+    color: #4d5ae5;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.accent-footer {
+    color: #4d5ae5;
+}
+a {
+    text-decoration: none;
 }
 ul {
     list-style-type: none;
 }
-
 .nav-list {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 24px; 
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.nav-list:hover , .nav-list:focus{
+    color: #404bbf;
+}
+.address {
+    font-style: normal;
 }
 .address-link {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 24px; 
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
-.title1{
+.address-link:hover, .address-link:focus{
+    color: #404bbf;
+}
+.section-one{
+    background: #2e2f42;
+}
+.title-one{
     font-weight: 700;
-font-size: 56px;
-line-height: 60px; 
-line-height: 1.07143;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
-color: black}
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
 
 .button {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 24px; 
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        color: black
-        }
-h2 {
-    font-weight: 700;
-        font-size: 36px;
-    line-height: 40px; 
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    background: #4d5ae5;
 }
-        h3{
-    font-weight: 500;
+.button:hover , .button:focus{
+    background: #404bbf;
+}
+.name {
+    
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.title{
+    
     font-size: 20px;
-    line-height: 24px; 
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-   .text {
-    font-weight: 400;
-        font-size: 16px;
-    line-height: 24px; 
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-   }    
-   .footer-text {
+.text {
     font-weight: 400;
     font-size: 16px;
-line-height: 24px; 
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: #f4f4fd;
-   color: black;
-   }
-   
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}  
+.footer {
+    background: #2e2f42;
+}  
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
 
