@@ -34,10 +34,6 @@ ul {
 .nav-list:hover, .nav-list:focus{
     color: #404bbf;
 }
-.item:active{
-    color: #404bbf;
-    text-decoration: underline;
-}
 .address {
     font-style: normal;
 }
@@ -85,8 +81,10 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .title{
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
