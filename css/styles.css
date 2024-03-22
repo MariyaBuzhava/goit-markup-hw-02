@@ -73,6 +73,12 @@ ul {
 .button:hover , .button:focus{
     background: #404bbf;
 }
+.section-two{
+    background-color: #f4f4fd;
+}
+.team-member{
+    background: #fff;
+}
 .name {
     font-size: 36px;
     line-height: 1.11;
